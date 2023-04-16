@@ -1,0 +1,49 @@
+<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1>Encriptador</h1>
+    <img src= "img/alura.png"></img>
+
+    <form class="form">
+      <div id="container">
+        <div id="textoAEncriptar">
+          <div id="inputTexto" style="overflow-y: auto">
+            <input
+              type="input"
+              id="input"
+              placeholder="Escribe aqui"
+            />
+          </div>
+          <div class="alerta">
+            <p>
+              <span>
+                minusculas y sin acentuacion</span>
+            </p>
+          </div>
+          <div class="botones-texto">
+            <button type="button" class="button" id="encriptar">
+              Encriptar
+            </button>
+            <button type="button" class="button" id="desencriptar">
+              Desencriptar
+            </button>
+          </div>
+        </div>
+        <div id="textoEncriptado">
+          <form type="text" class="form">
+            <p type="text" id="pTextoEncriptado"></p>
+            <button type="button" class="button" id="copiar">Copiar</button>
+          </form>
+        </div>
+      </div>
+    </form>
+    <script src="encriptado.js"></script>
+  </body>
+</html>
